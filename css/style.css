@@ -41,7 +41,7 @@ header h1 {
 #container{
     background-color: white;
     width: 60%;
-    height: 700px;
+    height: 800px;
     margin: auto;
     padding-top: 20px;
 }
@@ -75,7 +75,7 @@ header h1 {
 }
 /* blocchi */
 .blocchetto{
-    line-height: 70px;
+    line-height: 100px;
 }
 
 section > div {
