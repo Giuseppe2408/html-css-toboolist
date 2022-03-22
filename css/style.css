@@ -71,7 +71,7 @@ header h1 {
 
 #linea {
     border-bottom: 1px solid lightgrey;
-    padding: 20px;
+    padding: 20px 0;
 }
 /* blocchi */
 .blocchetto{
