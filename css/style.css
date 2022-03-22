@@ -9,6 +9,10 @@ body {
     font-family: Arial Verdana sans-serif;
 }
 /* header */
+header{
+    height: 110px;
+    line-height: 110px;
+}
 #logo {
     width: 100px;
     line-height: 100px;
@@ -20,8 +24,9 @@ body {
 }
 
 header h1 {
-    margin: 20px 20px;
+    vertical-align: middle;
     font-size: 50px;
+
 }
 
 /* main */
@@ -45,6 +50,11 @@ header h1 {
     width: 90%;
     margin: 0 auto;
 }
+
+#margin > section{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+}
 /* button */
 .button {
     border: solid 1px lightgrey;
@@ -64,8 +74,38 @@ header h1 {
     padding: 20px;
 }
 /* blocchi */
+.blocchetto{
+    line-height: 70px;
+}
+
 section > div {
     line-height: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.symbol-triangle {
+    font-size: 20px;
+}
+
+.check {
+    font-size: 16px;
+    color: green;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+
+.symbol-x {
+    font-size: 16px;
+    color: red;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50%;
+    border: 2px solid red;
 }
 .color {
     border-radius: 10px;
